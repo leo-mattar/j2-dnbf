@@ -126,7 +126,7 @@ function fundingCards() {
       tl.restart();
     });
 
-    cardCloseButton.on("click", function () {
+    cardTrigger.on("click", function () {
       tl.reverse();
     });
   });
@@ -260,7 +260,7 @@ function menuMobile() {
     menuEl,
     { clipPath: "inset(0% 0% 0% 100%)" },
     { clipPath: "inset(0% 0% 0% 0%)" },
-    0,
+    0
   );
 
   $(".c-nav-btn").on("click", function () {
