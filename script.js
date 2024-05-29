@@ -126,7 +126,7 @@ function fundingCards() {
       tl.restart();
     });
 
-    cardTrigger.on("click", function () {
+    cardActive.on("click", function () {
       tl.reverse();
     });
   });
